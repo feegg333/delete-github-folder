@@ -15,27 +15,23 @@
 
 打指令前記得先檢查本機路徑是否正確指到要修改的 repository 路徑，確認路徑沒問題以後就可以開始打指令了。
 
-{% highlight linenos %}
+
 
 C:\github\delete-github-folder [master ≡ +1 ~0 -0 !]>  git rm -r --cached test02
 
-{% endhighlight %}
+
 
 輸入這項指令後，你會看到他已經把該資料夾內的檔案刪除，接著打上 commit。
 
-{% highlight linenos %}a
 
 C:\github\delete-github-folder [master ≡ +0 ~0 -2 | +1 ~0 -0 !]> git commit -m 'remove folder'
 
-{% endhighlight %}
 
 最後再使用 push 指令，任務就完成啦!
 
-{% highlight linenos %}
 
  C:\github\delete-github-folder [master ↑ +1 ~0 -0 !]> git push origin master
 
-{% endhighlight %}
 
 我們到 GitHub 上面看看， test02 資料夾已經成功被刪除了。
 
