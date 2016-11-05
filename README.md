@@ -16,9 +16,9 @@
 打指令前記得先檢查本機路徑是否正確指到要修改的 repository 路徑，確認路徑沒問題以後就可以開始打指令了。
 
 
-<pre>
+
 C:\github\delete-github-folder [master ≡ +1 ~0 -0 !]>  git rm -r --cached test02
-<pre/>
+
 
 
 輸入這項指令後，你會看到他已經把該資料夾內的檔案刪除，接著打上 commit。
